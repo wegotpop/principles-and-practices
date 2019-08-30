@@ -14,3 +14,4 @@ Guides on how to collaborate effectively on the POP codebases.
 * [Security](security/index.md)
 * [Web development](web-development/index.md)
 * [Databases](databases/index.md)
+* [Project layouts](projects/index.md)
