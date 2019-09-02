@@ -17,9 +17,15 @@ If we're not sure what the best way to structure our data is and we are explorin
 
 Where we want to store data that is only relevant to small numbers of rows in a table (like artist's scene preferences or configuration options that only a handful of clients use) then the JSONB column is perfect because it avoids adding lots of columns to a table most of which are null.
 
-This reduces the amount of "noise" there is on the table.
+This reduces the amount of "noise" there is on the table, reducing memory requirements on both the app and database and bandwidth between both.
 
 Queries on these mostly empty columns can be poor because the database has to handle all the empty columns when generating the query plan.
+
+### Documents
+
+If you are representing a document, where changing something on the JSONB field means that you have a new document.
+
+Note: in this case you might want to enforce version control, see https://docs.sqlalchemy.org/en/13/orm/versioning.html#server-side-version-counters
 
 ## Don't use JSON columns when...
 
@@ -29,20 +35,25 @@ If a data value occurs in virtually every row it is far better to make it a colu
 
 If a column would ever be NOT NULL then it shouldn't be in a JSONB column.
 
-### The datatype would be too generic
-
-Where the equivalent database column type would have a stronger or clearer type then you should use a column.
-For example dates and times are poorly represented in JSON as it has no native type for time-based values.
-
 ## Problems we've had
 
-These are all actual problems that have occurred rather than theoretial issues.
+These are all actual problems that have occurred rather than theoretical issues.
+
+### Non-detection of changes
+
+We've had new models where changes inside the dictionary of a JSONB field aren't applied to the database. To ensure that, always make sure the definition of the field is done in this way:
+
+```
+    meta = Column(MutableDict.as_mutable(JSONB), nullable=False, default={})
+```
+
+This guarantees that changes done to the first level always triggers a changed state on the model.
 
 ### Overwriting data
 
-As the handling of the columns is abstracted away by SQL Alchemy and Turbogears transactions (and sometimes Redux stores) it can be easy to create situations where the column value is updated incorrectly with a whole update instead of a path by path update.
+As the handling of the columns is abstracted away by SQL Alchemy and Turbogears transactions (and sometimes Redux stores) it can be easy to create situations where the column value is updated incorrectly with a whole update instead of a path by path update. SQLAlchemy's JSONB field assumes a document model, so both the loading and saving are done in a big block. That results in 2 edits done in parallel actually resulting in one of the changes disappearing.
 
-In theory there is no difference between updating a path in a JSONB column and a regular column but we are not working at a low enough level to guarantee this.
+To ensure this does not affect your code, set values on a JSONB field using `popsss.lib.helpers.atomic_jsonb_set`. This version only updates a field inside the dictionary at a time in a way that is properly locked by the database.
 
 ### Opaque data structure
 
