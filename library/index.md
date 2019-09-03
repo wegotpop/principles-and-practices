@@ -8,7 +8,7 @@ We have a number of books that belong to the team and are available for referenc
 * Algorithms (Robert Sedgewick)
 * Essential SQLAlchemy
 * Fluent Python
-* Growing Object-Orientated Software with Test
+* Growing Object-Oriented Software, Guided by Tests
 * Learn Python the Hard Way
 * Learn more Python the Hard Way
 * Python by Example
