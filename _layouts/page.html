@@ -7,6 +7,10 @@ layout: default
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
+  {% if page.show_toc %}
+  {% include toc.html html=content h_max=2 %}
+  {% endif %}
+
   <div class="post-content">
     {{ content }}
   </div>
