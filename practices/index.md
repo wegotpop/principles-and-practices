@@ -15,3 +15,4 @@ Guides on how to collaborate effectively on the POP codebases.
 * [Web development](web-development/index.md)
 * [Databases](databases/index.md)
 * [Project layouts](projects/index.md)
+* [Using React](react.md)
