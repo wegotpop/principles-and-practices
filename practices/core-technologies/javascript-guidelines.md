@@ -4,7 +4,7 @@ title: Javascript Guidelines
 
 ---
 
-## Prefer null to undefined
+## Prefer undefined to null
 
 If you have a value that represents something that does not exist or which has not been set then prefer the use of `undefined` to `null`.
 
