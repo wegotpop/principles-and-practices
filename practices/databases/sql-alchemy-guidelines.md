@@ -9,7 +9,9 @@ show_toc: true
 
 ## Query types
 
-Prefer the use of `first` or instead treating the query as an iterable.
+If you are looking for a single result prefer the use of `first` or `one_or_none`
+
+If you want multiple rows then treat the query object as an iterable.
 
 Don't use `all`.
 
@@ -19,9 +21,12 @@ If you use `one` then handle the cases where zero and more than one row occurs a
 
 Use of the ResultProxy iterable creates less memory-pressure than `all` and in most cases we don't want or need to do anything with all the results for the query in one go in the application.
 
-`first` is easier to understand for maintainance as it returns `None` if no row is found.
+`first` is easier to understand for maintenance as it returns `None` if no row is found.
+
 
 If you use `one` then multiple rows or no rows found are both exceptions and in our code we rarely handle those exceptions explicitly so it is hard to follow what the code should be doing in those cases.
+
+For `one_or_none` then you should do something appropriate with the multiple rows exception.
 
 The `fetch` methods may require slightly different management of connections so they should probably never be used in our codebases.
 
