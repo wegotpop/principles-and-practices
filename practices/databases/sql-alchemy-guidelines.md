@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: SQL Alchemy Guideline
+title: SQL Alchemy Guidelines
 
 show_toc: true
 
@@ -9,9 +9,11 @@ show_toc: true
 
 ## Query types
 
-Only use `first` or treat the query as an iterable.
+Prefer the use of `first` or instead treating the query as an iterable.
 
-Don't use `one` or `all`.
+Don't use `all`.
+
+If you use `one` then handle the cases where zero and more than one row occurs and handle the associated exceptions so that other developers can understand what you expected to happen.
 
 ### Rationale
 
@@ -24,6 +26,10 @@ If you use `one` then multiple rows or no rows found are both exceptions and in 
 The `fetch` methods may require slightly different management of connections so they should probably never be used in our codebases.
 
 See also the advice in the Essential SQL Alchemy book.
+
+### Technical detail
+
+`first` uses a `LIMIT` clause to restrict it's return type which is fast but can obscure problems in the underlying database structure. If you use it on anything other than a Primary Key column then if there are multiple rows that satisfy your query then the row returned by `first` will essentially be random and therefore inconsistent behaviour and intermittent bugs can arise.
 
 ## Clauses
 

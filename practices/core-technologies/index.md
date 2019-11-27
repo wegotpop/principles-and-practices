@@ -17,4 +17,4 @@ See this guide to [Language specific tools and framework](frameworks-and-tools.m
 ## Guidelines
 
 * [Javascript](javascript-guidelines.md)
-* [SQL Alchemy](sql-alchemy-guidelines.md)
+* [SQL Alchemy](../databases/sql-alchemy-guidelines.md)
