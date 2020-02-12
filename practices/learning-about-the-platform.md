@@ -3,7 +3,7 @@ layout: page
 title: Learning about the platform
 ---
 
-The Popsss platform is a vast and complex application with many moving parts, and lots of people working in the same repository, and sometimes on the same files
+The POPSSS platform is a vast and complex application with many moving parts, and lots of people working in the same repository, and sometimes on the same files
 
 It can be quite daunting for someone who is unfamiliar with the code base, so here are a few helpful hints/tips for helping yourself when it comes to familiarising yourself, and learning about the platform.
 
@@ -26,5 +26,4 @@ For more guidance around code reviews please see our [code review page](/princip
 Reading tests can also be a very helpful first step.
 
 Often they are written with both a positive assumption (i.e. passing valid arguments) and negative assumptions (i.e. passing invalid arguments). From there you can often get a sense of what the code is supposed to do.
-
 
