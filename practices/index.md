@@ -16,3 +16,4 @@ Guides on how to collaborate effectively on the POP codebases.
 * [Databases](databases/index.md)
 * [Project layouts](projects/index.md)
 * [Using React](react.md)
+* [Learning The Platform](learning-about-the-platform.md)
