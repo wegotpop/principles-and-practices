@@ -20,7 +20,7 @@ You should always be nosy and have a look at what is being submitted, even if it
 
 For more guidance around code reviews please see our [code review page](/principles-and-practices/practices/code-reviews)
 
-
+Going back to historic pull requests can also help tell the story of how a feature has been developed. You can see how changes and revisions were built up and what design decisions were made. This might be very useful before you add a new feature to an existing part of the system.
 ### Tests
 
 Reading tests can also be a very helpful first step.
