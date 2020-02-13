@@ -5,7 +5,7 @@ title: Learning about the platform
 
 The POPSSS platform is a vast and complex application with many moving parts, and lots of people working in the same repository.
 
-It can be quite daunting for someone who is unfamiliar with the code base, so here are a few helpful hints/tips for helping yourself when it comes to familiarising yourself, and learning about the platform.
+It can be quite daunting for someone who is unfamiliar with the code base, so here are a few helpful hints and tips for helping yourself when it comes to learning about the platform.
 
 
 ### Code reviews
