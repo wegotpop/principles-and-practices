@@ -25,4 +25,4 @@ Going back to historic pull requests can also help tell the story of how a featu
 
 Reading tests can also be a very helpful first step.
 
-Often they are written with both a positive assumption (i.e. passing valid arguments) and negative assumptions (i.e. passing invalid arguments). From there you can often get a sense of what the code is supposed to do.
+Often they are written with both a positive assumption (i.e. passing valid arguments) and negative assumptions (i.e. passing invalid arguments). From there you can often get a sense of what the code is supposed to do. For functions in dynamic languages, like Javascript and Python, it can sometimes be hard to understand what the parameters are on the expected calls and the tests provide a great specification of the usages that the original developer imagined for the code.
