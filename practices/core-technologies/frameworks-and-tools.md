@@ -1,17 +1,11 @@
 ---
 layout: page
-title: Core Technologies
+
+title: Language-specific frameworks and tools
+
 ---
 
-We current have experience and expertise in:
-
-* Python
-* Javascript
-* Typescript
-* HTML/CSS
-* AWS
-
-## Language specific tools and frameworks
+We use a variety of different technologies and to avoid big re-write projects we do not have strong deprecation of historic technology or new introductions. Therefore we need to have guidance on what we want to phase out in the codebases and what we want to introduce.
 
 Things marked **Do use** feel free to use where you want.
 
@@ -19,25 +13,25 @@ Things in **Retire** means that we still have code that uses this and it is okay
 
 Things marked as **Don't use** means that we have either retired this successfully or we have tried it and it hasn't worked out and should only be re-trialled if we have had a proper review of what did not work before and why things might now be different.
 
-### Python
+## Python
 
-#### Do use
+### Do use
 
 * Flask
 
-#### Retire
+### Retire
 
 * Turbogears
 
-### Javascript/Typescript
+## Javascript/Typescript
 
-#### Do use
+### Do use
 
 * Webpack
 * React
 * CSS Modules
 
-#### Retire
+### Retire
 
 * Redux (use React Hooks instead)
 * Flow (use Typescript instead)
@@ -46,6 +40,6 @@ Things marked as **Don't use** means that we have either retired this successful
 * React class-based components (use Stateless components instead)
 * React Bootstrap
 
-#### Don't use
+### Don't use
 
 * Inline styling in React Components
