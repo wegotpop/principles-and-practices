@@ -10,6 +10,8 @@ Guides on company polices as they apply to the development team.
 * [Sickness](sickness.md)
 * [Flexi-time](flexi-time.md)
 * [Interviewing](interviews.md)
+* [Line Management](line-management)
+* [Probation](probation)
 
 ### Development Policies
 
