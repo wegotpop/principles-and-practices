@@ -15,7 +15,7 @@ In general do not use the object-orientated features of Javascript. If you want 
 
 Avoid using multi-class inheritance, this is a comparatively rare feature but it is present in some of our older code.
 
-Where you are using classes prefer `dataclasses`.
+Where you are using classes prefer [`dataclasses`](https://docs.python.org/3/library/dataclasses.html).
 
 ## Do
 
