@@ -25,7 +25,7 @@ Avoid using inheritance. If you want to share functionality between classes then
 
 #### Rationale
 
-Wherever we have created anything beyond a singe step of inheritance it has resulted in subtle (and sometimes unsubtle bugs) subsequently. Maintaining an accurate mental mode of multi-level inheritance is difficult particularly in open-class dynamic languages.
+Wherever we have created anything beyond a singe step of inheritance it has resulted in subtle (and sometimes unsubtle) bugs. Subsequently, maintaining an accurate mental mode of multi-level inheritance is difficult particularly in open-class dynamic languages.
 
 #### Exceptions
 
