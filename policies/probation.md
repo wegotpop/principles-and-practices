@@ -24,7 +24,9 @@ During your second and third months you will generally have one to ones schedule
 
 Around the start of your third month then the review process will begin. You will be asked to complete a self-assessment of your probation period. You should take time to fill this out and reflect on your experience and contribution during the probation period.
 
-Separately the development team and some of the other people you have been working with will be invited to give feedback on your performance during probation. The more senior you are the more likely this is to take the form of a 360&degree; feedback review with feedback from people whose work you manage and from those who work with you as peers in other functional roles.
+Separately the development team and some of the other people you have been working with will be invited to give feedback on your performance during probation. This will take the form of a 360&deg; feedback review with feedback from people who you work with, include those whose work you manage (if relevant) and from those who work with you as peers in other functional roles (for example product or quality).
+
+Feedback will normally only be gathered from other staff members who have themselves passed probation so if you join as part of a cohort then you will not receive feedback from other members of that cohort in your review.
 
 This review feedback is generally anonymous although there is a chance to provide attributed feedback as well.
 
