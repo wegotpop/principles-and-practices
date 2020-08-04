@@ -12,6 +12,7 @@ Guides on company polices as they apply to the development team.
 * [Interviewing](interviews.md)
 * [Line Management](line-management)
 * [Probation](probation)
+* [Doing Background Work](doing-background-work)
 
 ### Development Policies
 
