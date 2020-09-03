@@ -17,9 +17,9 @@ They may have an area of expertise or knowledge that they work on exclusively bu
 
 A software developer can work independently on a typical task requirement to maintain and extend the existing functionality of the platform.
 
-Their work is typically high quality, meeting the expectations of clients and their fellow team members. They understand when their work fits common patterns already in use and when new solutions need to be created.
+Their work is typically high quality, meeting the expectations of clients and their fellow team members. They understand when their work fits common patterns already in use in our systems and when new solutions need to be created.
 
-When estimating a feature the actual work is inside the original estimate range more often that outside.
+When estimating a feature, the actual work is inside the original estimate range more often than it is outside. The developer has a good intuition for both the work required and their ability to carry it out.
 
 ## Lead Software Developer
 
