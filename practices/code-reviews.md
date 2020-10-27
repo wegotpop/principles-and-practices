@@ -36,6 +36,7 @@ A PR must pass the full test suite of the code base to be approved and merged.
 
 There may be some exceptions to this rule (for example changing microcopy in the UI) but where this is the not the case the PR's submitter *must* explain why the tests are not required for the change.
 
+In the case of an emergency deploy, the full test coverage should follow as soon as possible. If not done immediately after, an issue should be created in github for the missing test coverage.
 ## Large pull requests
 
 If a change consists of more than 20 file changes then the PR should be considered as unreviewable. Sometimes changes on this scale are inevitable but always try to find ways to create smaller sequences of changes.
