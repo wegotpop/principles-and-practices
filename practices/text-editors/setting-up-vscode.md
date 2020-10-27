@@ -14,3 +14,4 @@ title: Setting Up Visual Studio Code
 #### Optional Extensions:
 
 * Git Blame
+* Code Spell Checker
