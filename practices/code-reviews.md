@@ -36,7 +36,7 @@ A PR must pass the full test suite of the code base to be approved and merged.
 
 There may be some exceptions to this rule (for example changing microcopy in the UI) but where this is the case the PR's submitter *must* explain why the tests are not required for the change.
 
-In the case of an emergency deploy, the full test coverage should follow as soon as possible. If not done immediately after, an issue should be created in Github and assigned to someone to create the missing test coverage. This should be prioritised over all other non-emergency work.
+In the case of an emergency deploy, the full test coverage should follow as soon as possible. If not done immediately after the initial release, an Issue should be created in Github and assigned to someone to create the missing test coverage. This should be prioritised over all other non-emergency work.
 
 ## Large pull requests
 
