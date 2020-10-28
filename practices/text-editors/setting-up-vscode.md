@@ -3,7 +3,7 @@ layout: page
 title: Setting Up Visual Studio Code
 ---
 
-#### Mandatory Extensions:
+### Mandatory Extensions:
 
 * [Black](https://github.com/psf/black)
 * [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
