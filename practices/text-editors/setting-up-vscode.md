@@ -11,7 +11,7 @@ title: Setting Up Visual Studio Code
 * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
-#### Optional Extensions:
+### Optional Extensions:
 
 * [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
 * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
