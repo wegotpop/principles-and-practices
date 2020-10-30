@@ -16,7 +16,6 @@ The code reviewer is primarily responsible for deciding whether the code makes s
 Examples of reasonable requests during code review:
 
 * Asking for documentation
-* Asking for unit or other tests to demonstrate functionality works as expected
 * Asking for explanation of an approach in the PR
 * Asking for a large PR to be broken up into smaller parts
 * Asking for clarification on how a change meets the requirements
@@ -28,6 +27,16 @@ A PR should have a description that summarises the change, why it is being made 
 A PR should have a good title that will be easy to find in a search.
 
 If the change is primarily for user interface or styling changes, include a screenshot illustrating what the changes look like. This helps contextualise your changes.
+
+### Tests
+
+A PR should have appropriate unit or functional tests that demonstrate both the happy and unhappy paths of the code.
+
+A PR must pass the full test suite of the code base to be approved and merged.
+
+There may be some exceptions to this rule (for example changing microcopy in the UI) but where this is the case the PR's submitter *must* explain why the tests are not required for the change.
+
+In the case of an emergency deploy, the full test coverage should follow as soon as possible. If not done immediately after the initial release, an Issue should be created in Github and assigned to someone to create the missing test coverage. This should be prioritised over all other non-emergency work.
 
 ## Large pull requests
 
