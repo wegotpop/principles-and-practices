@@ -18,3 +18,4 @@ Guides on how to collaborate effectively on the POP codebases.
 * [Project layouts](projects/index.md)
 * [Using React](react.md)
 * [Learning The Platform](learning-about-the-platform.md)
+* [Shared Language](terminology)
