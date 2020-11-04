@@ -9,6 +9,7 @@ Guides on how to collaborate effectively on the POP codebases.
 * [Merging pull requests](merging-pull-requests.md)
 * [Programming](programming)
 * [Core Technologies](core-technologies.md)
+* [Text Editors](text-editors)
 * [Documentation](documentation.md)
 * [Conventions](conventions/index.md)
 * [Browsers](browsers.md)
