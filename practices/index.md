@@ -20,3 +20,4 @@ Guides on how to collaborate effectively on the POP codebases.
 * [Using React](react.md)
 * [Learning The Platform](learning-about-the-platform.md)
 * [Shared Language](terminology)
+* [Source Control](source-control)
