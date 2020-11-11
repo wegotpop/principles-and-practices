@@ -3,8 +3,6 @@ layout: page
 title: Setting Up Sublime
 ---
 
-[*Back to Text Editors*](index.md)
-
 ### Mandatory Extensions:
 
 * [Sublack](https://github.com/jgirardet/sublack)

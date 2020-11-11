@@ -3,8 +3,6 @@ layout: page
 title: Setting Up Visual Studio Code
 ---
 
-[*Back to Text Editors*](index.md)
-
 ### Mandatory Extensions:
 
 * [Black](https://github.com/psf/black)
