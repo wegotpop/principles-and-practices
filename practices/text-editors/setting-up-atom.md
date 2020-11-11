@@ -3,6 +3,8 @@ layout: page
 title: Setting Up Atom
 ---
 
+[*Back to Text Editors*](index.md)
+
 ### Mandatory Extensions:
 
 * [Python-black](https://atom.io/packages/python-black)
