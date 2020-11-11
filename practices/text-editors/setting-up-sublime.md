@@ -15,4 +15,3 @@ title: Setting Up Sublime
 * [JSX](https://github.com/allanhortle/JSX)
 * [Typescript](https://github.com/microsoft/TypeScript-Sublime-Plugin)
 * [Terraform](https://github.com/alexlouden/Terraform.tmLanguage)
-
