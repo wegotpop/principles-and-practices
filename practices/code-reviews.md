@@ -3,7 +3,7 @@ layout: page
 title: Code review
 ---
 
-All code should get a review by at least one other developer before being merged.
+All code should get a review by at least one other developer before being merged. The reviewer must not have been involved in the code creation process (e.g. part of a paired-programming effort).
 
 ## Performing a code review
 
