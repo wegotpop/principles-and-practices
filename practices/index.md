@@ -5,11 +5,8 @@ title: Practices
 
 Guides on how to collaborate effectively on the POP codebases.
 
-* [Code reviews](code-reviews.md)
-* [Merging pull requests](merging-pull-requests.md)
 * [Programming](programming)
 * [Core Technologies](core-technologies.md)
-* [Text Editors](text-editors)
 * [Documentation](documentation.md)
 * [Conventions](conventions/index.md)
 * [Browsers](browsers.md)
@@ -18,6 +15,22 @@ Guides on how to collaborate effectively on the POP codebases.
 * [Databases](databases/index.md)
 * [Project layouts](projects/index.md)
 * [Using React](react.md)
-* [Learning The Platform](learning-about-the-platform.md)
-* [Shared Language](terminology)
 * [Source Control](source-control)
+
+## Culture
+
+* [Shared Language](terminology)
+
+## Process
+
+* [Pull Requests](pull-requests)
+* [Code reviews](code-reviews.md)
+* [Merging pull requests](merging-pull-requests.md)
+
+## Tools
+
+* [Text Editors](text-editors)
+
+## Starting
+
+* [Learning The Platform](learning-about-the-platform.md)
