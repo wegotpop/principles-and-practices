@@ -17,7 +17,7 @@ You should link to any requirement information (Trello, Google Docs, etc.) but n
 
 ## Implementation
 
-This should explain the reasoning behing the way you have chosen to implement the changes required. For most changes there are multiple ways the problem could have been solved so it is important to share your reasoning as to why you have chosen the approach that you have, otherwise your [code reviewers]({{ site.baseurl }}{% link practices/code-reviews.md %}) will need to try and figure out what you were trying to do and whether you have done it successfully.
+This should explain the reasoning behind the way you have chosen to implement the changes required. For most changes there are multiple ways the problem could have been solved so it is important to share your reasoning as to why you have chosen the approach that you have, otherwise your [code reviewers]({{ site.baseurl }}{% link practices/code-reviews.md %}) will need to try and figure out what you were trying to do and whether you have done it successfully.
 
 It is also important to record any conversations that were had during development that change the understanding of the initial requirements. In particular where design changes were agreed then add them here or link to the updated agreed designs.
 
@@ -25,4 +25,4 @@ It is also important to record any conversations that were had during developmen
 
 If your PR builds on the work done in previous PRs then link to them via their id number using the Github auto-linking.
 
-If in a previous PR you committed to updating the change you will ideally use Github Issues to record the resolution and link the relevant PRs together. If you did not do this for any reason then it will simplify maintanence if you update the older PR to link to the new one that is related.
+If in a previous PR you committed to updating the change you will ideally use Github Issues to record the resolution and link the relevant PRs together. If you did not do this for any reason then it will simplify maintenance if you update the older PR to link to the new one that is related.
