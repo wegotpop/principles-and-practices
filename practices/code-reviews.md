@@ -3,7 +3,7 @@ layout: page
 title: Code review
 ---
 
-All code should get a review by at least one other developer before being merged.
+All code must have a review by at least one other developer who has not been involved in the development of the change. For more complex changes ensure that the change has multiple reviewers at least one of whom is familiar with the area you are changing.
 
 ## Performing a code review
 
