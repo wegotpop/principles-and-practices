@@ -15,6 +15,7 @@ Guides on how to collaborate effectively on the POP codebases.
 * [Databases](databases/index.md)
 * [Project layouts](projects/index.md)
 * [Using React](react.md)
+* [Retrospectives]({{site.baseurl}}{% link practices/retrospectives/index.md %})
 * [Source Control](source-control)
 
 ## Culture
@@ -25,6 +26,7 @@ Guides on how to collaborate effectively on the POP codebases.
 
 * [Pull Requests](pull-requests)
 * [Code reviews](code-reviews.md)
+* [Making technical proposals](technical-proposals)
 * [Merging pull requests](merging-pull-requests.md)
 
 ## Tools
