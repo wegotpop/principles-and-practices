@@ -19,7 +19,7 @@ Only raise issues that you personally understand and believe in. If you think ot
 
 Whether something went well or not is entirely based on how you feel it about. The items are grouped by theme so it's not uncommon to have the same topic containing elements that are positive and negative.
 
-There is also some wriggle room, typically new starters get a "Went Well" topic even though there isn't anything to discuss and there may have been problems during the onboarding process.
+There is also some wriggle room, typically new starters get a "Went Well" topic even though there isn't anything to discuss or there have been problems during the onboarding process.
 
 ### Try to participate
 
@@ -44,4 +44,3 @@ Things that mostly affect single teams (working with EP, financial controls) are
 Particular issues or problems that occurred (releases reverts, cancelled rollouts) are probably best handled by a retrospective for that particular incident, again due to the need for context. However those retrospectives might reveal a broader lesson or discussion point that would be worth handling at a functional level.
 
 Proposals to change or introduce a practice, tool or piece of technology are better handled through the [proposal process]({{site.baseurl}}{%link practices/technical-proposals.md %}).
-
