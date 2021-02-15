@@ -9,7 +9,7 @@ Proposals can be very broad and cover a range of things including changes to the
 
 ## Structure
 
-The proposal should have the following sections as a minimum but depending on the nature of the proposal there may be addtional sections to describe the idea fully.
+The proposal should have the following sections as a minimum but depending on the nature of the proposal there may be additional sections to describe the idea fully.
 
 Once a proposal is discussed then the document can also be updated with the record of the discussion including any follow up questions and answers.
 
