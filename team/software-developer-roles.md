@@ -37,7 +37,7 @@ Understands problems that other functions and people in the business have and ta
 
 Finds ways to automate processes to improve the effectiveness of the development team’s delivery.
 
-They activate promote knowledge sharing on technical matters and are capable of sharing information that takes into account the needs and preferences of other team members.
+They actively promote knowledge sharing on technical matters and are capable of sharing information that takes into account the needs and preferences of other team members.
 
 They take steps to ensure that their teams and collaborators have a shared, mutual context of the work that is going on at both the tactical (immediate level) and the strategic level (how individual work links together to achieve the wider business objective).
 
@@ -50,5 +50,4 @@ Originates new ideas, features and projects and helps make them real.
 Helps the development team adopt new technology or ideas to make their work more productive, higher quality and more reliable.
 Has the respect within the team to settle issues amicably with all sides feeling like they have been heard even if their ideas are not ultimately adopted.
 Has an understanding of the business and the domain to deliver changes ahead of client demand.
-
 
