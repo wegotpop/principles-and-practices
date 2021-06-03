@@ -7,6 +7,7 @@ Guides on how to collaborate effectively on the POP codebases.
 
 * [Programming](programming)
 * [Core Technologies](core-technologies.md)
+* [Datastores](datastores/index.md)
 * [Documentation](documentation.md)
 * [Conventions](conventions/index.md)
 * [Browsers](browsers.md)
